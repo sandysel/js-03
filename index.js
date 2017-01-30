@@ -1,8 +1,9 @@
     var inptN = Number(prompt('How many do you need?'), 0);
     result(inptN);
 
-    function result (InptN){
-        document.write("Fibonacci sequence: " + arr[0] + ", " + arr[1] + ", ");
+    function result (inptN){
+        document.write("Fibonacci sequence: ");
+        
         var arr = [];
         arr[0]=0;
         arr[1]=1;
